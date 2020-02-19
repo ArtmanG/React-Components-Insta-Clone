@@ -7,7 +7,7 @@ Look at each file to see where you need to pass props or add code
 import React from "react";
 import "./App.css";
 // import the PostsPage and SearchBar and add them to the App
-import SearchBar from "../src/components/SearchBar";
+import SearchBar from "../src/components/SearchBar/SearchBarContainer";
 import PostsPage from "../src/components/PostsContainer/PostsPage"
 
 const App = () => {
